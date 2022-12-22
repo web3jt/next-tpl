@@ -1,13 +1,14 @@
-import './globals.css'
-
 import { Inter } from '@next/font/google'
-const inter = Inter({
-  variable: '--font-inter',
-});
 
 import Header from './Header'
 import Nav from './Nav'
 import Footer from './Footer'
+
+import './globals.css'
+
+const inter = Inter({
+  variable: '--font-inter',
+});
 
 export default function RootLayout({
   children,
