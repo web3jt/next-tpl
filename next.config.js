@@ -6,9 +6,9 @@ const nextConfig = {
       {
         loader: '@next/font/google',
         options: {
-          // subsets: [
-          //   'latin'
-          // ],
+          subsets: [
+            'latin'
+          ],
         },
       },
     ],
